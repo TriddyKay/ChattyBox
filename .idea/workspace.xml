@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f54a0bc-937f-43d0-b8c0-f9372c91ac58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botV2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/startconfirmation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/startconfirmation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bot.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/startconfirmation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/translateMessage.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/bot.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/startconfirmation.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/translateMessage.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -77,7 +74,7 @@
       <workItem from="1630284879183" duration="9837000" />
       <workItem from="1630325139260" duration="1053000" />
       <workItem from="1630326657911" duration="557000" />
-      <workItem from="1630328624278" duration="2839000" />
+      <workItem from="1630328624278" duration="3664000" />
     </task>
     <servers />
   </component>
