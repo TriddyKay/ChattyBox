@@ -26,7 +26,7 @@ export const SendBotMessage = {
 
   roll: (username: string) : MessageOptions => {
     const stringifiedNumber = Math.floor(Math.random()*(100-1+1)+1).toString()
-    return { content: `${username}: ${stringifiedNumber}`}
+    return { content: `${username}: ${stringifiedNumber}` }
   },
 
   unrecognisableCommand: (): MessageOptions => {

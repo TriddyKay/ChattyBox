@@ -15,7 +15,8 @@ bot.on('ready', () => {
 
 bot.on('messageCreate', async (message: Message) => {
   if (message.author.bot) return;
-  console.log('message', message)
+  if (!message.content.startsWith("!")) return;
+  
   const translatedMessageOptions = translateMessage(message)
   message.channel.send(translatedMessageOptions)
 });
