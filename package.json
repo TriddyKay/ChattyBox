@@ -2,14 +2,14 @@
   "name": "chatty-box",
   "version": "1.0.0",
   "description": "A discord voice chatting bot",
-  "main": "botV2.ts",
+  "main": "bot.js",
   "author": "Tristan Kay",
   "module": "es2020",
   "dependencies": {
-    "@types/websocket": "^1.0.4",
-    "discord-api-types": "^0.22.0",
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "winston": "^3.3.3"
+    "@discordjs/voice": "^0.6.0",
+    "discord-tts": "^1.2.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "@types/node": "^16.7.6"

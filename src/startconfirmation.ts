@@ -1,29 +1,20 @@
 export enum Command {
-  PING = "!ping"
+  PING = "!ping",
 }
 
-export type BotMessage = {
-  to: string,
-  message?: string,
-  tts?: boolean,
-  nonce?: string,
-  typing?: boolean,
-  embed?: any
-}
-
-export const translateMessage = (command: string, channelId: string): BotMessage => {
+export const translateMessage = (command: string): string => {
   switch(command) {
-    case Command.PING: return SendBotMessage.initializeConfirmation(channelId)
+    case Command.PING: return SendBotMessage.initializeConfirmation()
   }
-  return SendBotMessage.unrecognisableCommand(channelId)
+  return SendBotMessage.unrecognisableCommand()
 }
 
 export const SendBotMessage = {
-  initializeConfirmation: (channelId: string): any => {
-    return { to: channelId, message: "Pong" }
+  initializeConfirmation: (): string => {
+    return  "Pong"
   },
 
-  unrecognisableCommand: (channelId: string): any => {
-    return { to: channelId, message: 'I don\'t recognise the command' }
+  unrecognisableCommand: (): string => {
+    return 'I don\'t recognise the command'
   }
 }
