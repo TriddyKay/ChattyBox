@@ -14,9 +14,10 @@ bot.on('ready', () => {
 });
 
 bot.on('messageCreate', async (message: Message) => {
+  const messageDoesNotStartWithPrefix = !message.content.startsWith("!")
   if (message.author.bot) return;
-  if (!message.content.startsWith("!")) return;
-  
+  if (messageDoesNotStartWithPrefix) return;
+
   const translatedMessageOptions = translateMessage(message)
   message.channel.send(translatedMessageOptions)
 });
