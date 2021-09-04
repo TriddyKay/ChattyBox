@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f54a0bc-937f-43d0-b8c0-f9372c91ac58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ActionService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JoinVoiceChannel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translateMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/translateMessage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translateMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/TranslateMessage.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +35,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/bot.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/translateMessage.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -52,14 +53,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.12.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="15.12.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/domain" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,7 +81,7 @@
       <workItem from="1630325139260" duration="1053000" />
       <workItem from="1630326657911" duration="557000" />
       <workItem from="1630328624278" duration="4729000" />
-      <workItem from="1630714354607" duration="906000" />
+      <workItem from="1630714354607" duration="7122000" />
     </task>
     <servers />
   </component>
