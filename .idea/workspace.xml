@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f54a0bc-937f-43d0-b8c0-f9372c91ac58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ActionService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JoinVoiceChannel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translateMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/TranslateMessage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActionService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActionService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinVoiceChannel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinVoiceChannel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TranslateMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/TranslateMessage.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
       <workItem from="1630326657911" duration="557000" />
       <workItem from="1630328624278" duration="4729000" />
       <workItem from="1630714354607" duration="7122000" />
+      <workItem from="1630722969956" duration="1165000" />
     </task>
     <servers />
   </component>

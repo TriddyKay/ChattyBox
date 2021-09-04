@@ -1,4 +1,4 @@
-import {Message, MessageOptions} from "discord.js"
+import {Message} from "discord.js"
 
 export const TranslateMessage = {
 

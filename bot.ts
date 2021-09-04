@@ -1,9 +1,9 @@
-import {Channel, Message} from "discord.js"
-import {joinVoiceChannel} from "@discordjs/voice"
+import {Message} from "discord.js"
 import {ActionService} from "./src/ActionService"
-require('dotenv').config();
 const Discord = require('discord.js');
 const {Intents} = require("discord.js");
+
+require('dotenv').config();
 const TOKEN = process.env.TOKEN;
 const bot = new Discord.Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
 
@@ -19,20 +19,4 @@ bot.on('messageCreate', async (message: Message) => {
   if (messageDoesNotStartWithPrefix) return;
 
   return ActionService.determineAction(message)
-
-  // const channels = await message.guild?.channels.fetch()
-  // channels?.forEach((channel: any) => {
-  //   if(channel.isVoice()) {
-  //     return joinDiscordVoiceChannel(channel, message)
-  //   }
-  // })
 });
-
-const joinDiscordVoiceChannel = (channel: Channel, message: Message) => {
-  joinVoiceChannel({
-    channelId: channel.id,
-    guildId: message.guild!.id,
-    adapterCreator: message.guild!.voiceAdapterCreator
-  })
-}
-
